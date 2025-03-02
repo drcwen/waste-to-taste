@@ -352,7 +352,7 @@ main .redeemitems > div {
 @media screen and (max-width: 1200px) {
     .container {
         width: 94%;
-        grid-template-columns: 7rem auto 5rem;
+        grid-template-columns: 2rem auto 1rem;
     }
 
     aside .logo h2 {
@@ -377,11 +377,13 @@ main .redeemitems > div {
         gap: 0;
     }
 
-    main .recent-orders {
-        width: 94%;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 2rem 0 0 8.8rem;
+    main .redeemitems {
+        grid-template-columns: 2fr;
+        gap: 1;
+    }
+
+    main h1 {
+        font-weight: 800;
+        font-size: 8rem;
     }
 }
