@@ -249,7 +249,7 @@ main .insights > div {
 @media screen and (max-width: 1200px) {
     .container {
         width: 94%;
-        grid-template-columns: 7rem auto 5rem;
+        grid-template-columns: 2rem auto 2rem;
     }
 
     aside .logo h2 {
@@ -274,11 +274,17 @@ main .insights > div {
         gap: 0;
     }
 
-    main .recent-orders {
-        width: 94%;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 2rem 0 0 8.8rem;
+    main h1 {
+        font-weight: 800;
+        font-size: 6rem;
     }
+
+    .sales h3 {
+        font-size: 2.5rem;
+    }
+
+    .sales h1 {
+        font-size: 15rem;
+    }
+
 }

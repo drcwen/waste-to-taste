@@ -352,7 +352,7 @@ main .redeemitems > div {
 @media screen and (max-width: 1200px) {
     .container {
         width: 94%;
-        grid-template-columns: 7rem auto 5rem;
+        grid-template-columns: 2rem auto 2rem;
     }
 
     aside .logo h2 {
@@ -383,5 +383,28 @@ main .redeemitems > div {
         left: 50%;
         transform: translateX(-50%);
         margin: 2rem 0 0 8.8rem;
+    }
+
+    main .redeemitems {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    main .redeemitems h3 {
+        font-size: 3.5rem;
+    }
+
+    main .redeemitems button {
+        font-size: 2rem;
+    }
+
+    .item-card img {
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+
+    .rewardstitle h1 {
+        font-size: 7rem;
     }
 }
